@@ -1,0 +1,203 @@
+*{
+   margin: 0;
+   padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: #ffffff url(imagens/fundo.png) repeat-x;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+#topo{
+    width: 820px;
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#topo #nvg{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+#topo #nvg li{
+    float: left;
+}
+#topo #nvg li a{
+    color: #ffffff;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    background: url(imagens/divisor.png) no-repeat left center;
+}
+#topo #nvg li .primeiro{
+        color: #ffffff;
+        font-size: 0.9em;
+        display: block;
+        padding: 0.5em 1.5em;
+        line-height: 2.1em;
+        text-decoration: none;
+        background: none;
+}
+#topo #nvg li a:hover{
+    color: #69001d;
+}
+#topo #nvg li a:active, #home #topo #nvg li #home1, #br #topo #nvg li #br1, #cie #topo #nvg li #cie1, #int #topo #nvg li #int1, #sd #topo #nvg li #sd1, #eco #topo #nvg li #eco1, #tech #topo #nvg li #tech1{
+    background: crimson;
+    color: #ffffff;
+    cursor: default;
+}
+#conteudo{
+    margin-top: 70px;
+}
+#cont-prim{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+.duas-col #cont-prim{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#cont-sec{
+    width: 270px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+#cont-lat{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+#cont-rod{
+    clear: both;
+    padding: 20px;
+    background-color: #294c71;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
+.caixa{
+    margin: 10px 0;
+    background: #f3f3f3  url(imagens/fundo-caixa.png);
+    padding: 5px 0;
+}
+.h{
+    color: #ffffff;
+    background-color: #294c71;
+    font-size: 1.1em;
+    padding: 5px;
+}
+.caixa-cont{
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+}
+#cont-lat ul li a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#cont-lat ul li a:hover{
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+    color: crimson;
+    padding-left: 20px;
+}
+input{
+    font-size: 0.9em;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 160px;
+    margin-top: 5px;
+}
+input#btn{
+    width: 80px;
+    color: #ffffff;
+    background-color: crimson;
+    border: 2px solid #b10333;
+    cursor: pointer;
+    margin-top: 10px;
+}
+input#btn:hover{
+    background-color: #b10333;
+    color: #ffffff;
+}
+img{
+    border: 2px solid #dfdfdf;
+}
+img.img-p{
+    width: 98%;
+    border: 3px solid #f3f3f3;
+}
+.lm{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.1em;
+}
+.lm:hover{
+    color: crimson;
+}
+.lmdiv{
+    margin-top: 5px;
+}
+h3{
+    padding: 3px;
+    display: inline;
+    text-transform: uppercase;
+}
+.h3-hl{
+    background-color: crimson;
+    color: #ffffff;
+    font-size: 0.95em;
+}
+#list-news li{
+    padding: 2px;
+    border-bottom: 1px solid #cccccc;
+    height: 80px;
+}
+#list-news li a img{
+    width: 80px;
+    float: left;
+    margin: 5px;
+}
+#list-news li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8em;
+}
+#list-news li a p{
+    margin-top: 5px;
+}
+#list-news li:hover{
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+#list-news li a h3{
+    font-size: 0.95em;
+}
